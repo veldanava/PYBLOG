@@ -6,7 +6,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 # env
-client = MongoClient('mongodb+srv://kianakaslana:098706@grace.abgcug5.mongodb.net/')
+client = MongoClient('mongodb+srv://@.mongodb.net/')
 db = client.kiana
 collection = db.test_collection
 posts = db.posts
